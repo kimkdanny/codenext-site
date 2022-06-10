@@ -57,7 +57,6 @@
 		<div class="mobile_menu_inner">
 			<div class="mobile_in">
 				<div class="logo">
-					<a href="#"><img src="{{url_for('static', filename='img/logo/dark.png')}}" alt="" /></a>
 				</div>
 				<div class="trigger">
 					<div class="hamburger hamburger--slider">
@@ -73,7 +72,7 @@
 				<ul class="anchor_nav">
 					<li class="current"><a href="#home">Home</a></li>
 					<li><a href="#about">About</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
+					<!--<li><a href="#portfolio">Portfolio</a></li>-->
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
@@ -86,14 +85,12 @@
 		<div class="container">
 			<div class="inner">
 				<div class="logo">
-					<a class="light" href="#"><img src="{{url_for('static', filename='img/logo/logo.png')}}" alt="" />
-					<a class="dark" href="#"><img src="{{url_for('static', filename='img/logo/dark.png')}}" alt="" />
 				</div>
 				<div class="menu">
 					<ul class="anchor_nav">
 						<li class="current"><a href="#home">Home</a></li>
 						<li><a href="#about">About</a></li>
-						<li><a href="#portfolio">Portfolio</a></li>
+						<!--<li><a href="#portfolio">Portfolio</a></li>-->
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -173,7 +170,7 @@
 				<div class="left">
 					<div class="image">
 						<img src="{{url_for('static', filename='img/thumbs/45-49.jpg')}}" alt="" />
-						<div class="main" data-img-url="{{url_for('static', filename='img/about/1.jpg')}}"></div>
+						<!--<div class="main" data-img-url="{{url_for('static', filename='img/about/1.jpg')}}"></div>-->
 						<span class="square moving_effect" data-direction="y" data-reverse="yes"></span>
 						<span class="border"><span class="in moving_effect" data-direction="x" data-reverse="yes"></span></span>
 					</div>
@@ -183,20 +180,19 @@
 						<span class="small">About Me</span>
 						<h3>I'm <span>Sadman</span></h3>
 						<h3>Web <span>Designer</span></h3>
-						<span class="subtitle">Based in London,UK</span>
+						<span class="subtitle">Based in New Jersey, United States</span>
 					</div>
 					<div class="text wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
-						<p>Hi! My name is Sadman Mazumder. I am UI/UX designer, and I'm very passionate and dedicated to my work.</p>
-						<p>With 20 years experience as a professional graphic designer and web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+						<p>Hi! My name is Sadman Mazumder. I am a student passionate about web development, robotics and game development. I hope to hone my skills and improve to become better in the future.</p>
 					</div>
 					<div class="aali_tm_button wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.2s">
-						<a href="{{url_for('static', filename='img/cv/1.jpg')}}" download><span>Download CV <img class="svg" src="{{url_for('static', filename='img/svg/download.svg')}}" alt="" /></span></a>
+						<a href="{{url_for('static', filename='img/cv/resume.pdf')}}" download><span>Download CV <img class="svg" src="{{url_for('static', filename='img/svg/download.svg')}}" alt="" /></span></a>
 					</div>
 				</div>
 				<div class="right">
 					<div class="image">
 						<img src="{{url_for('static', filename='img/thumbs/41-61.jpg')}}" alt="" />
-						<div class="main" data-img-url="{{url_for('static', filename='img/about/2.jpg')}}"></div>
+						<!--<div class="main" data-img-url="{{url_for('static', filename='img/about/2.jpg')}}"></div>-->
 						<div class="square moving_effect" data-direction="x" data-reverse="no"></div>
 					</div>
 				</div>
@@ -204,8 +200,8 @@
 		</div>
 	</div>
 	<!-- /ABOUT -->
-	
-	<!-- SKILLS -->
+	<!--
+	 SKILLS
 	<div class="aali_tm_section">
 		<div class="aali_tm_skills">
 			<div class="container">
@@ -214,7 +210,7 @@
 						<div class="aali_tm_main_title" data-text-align="left" data-color="light">
 							<span>My Skills</span>
 							<h3>You Can Imagine<br /> I Can Do</h3>
-							<p>I am working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional creative personal resume portfolio template Aali</p>
+							<p>I am working on a professional, visually sophisticated and technologically proficient, responsive and multi-functional creative personal resume portfolio template Sadman</p>
 						</div>
 					</div>
 					<div class="right wow fadeInRight" data-wow-duration="1s">
@@ -238,9 +234,9 @@
 			<span class="border moving_effect" data-direction="x" data-reverse="yes"></span>
 		</div>
 	</div>
-	<!-- /SKILLS -->
+	/SKILLS-->
 	
-	<!-- PORTFOLIO -->
+	<!-- PORTFOLIO
 	<div class="aali_tm_section help" id="portfolio">
 		<div class="aali_tm_portfolio wow fadeInUp" data-wow-duration="1s">
 			<div class="container">
@@ -483,9 +479,9 @@
 			</div>
 		</div>
 	</div>
-	<!-- /PORTFOLIO -->
+	 /PORTFOLIO -->
 	
-	<!-- COUNTER -->
+	<!-- COUNTER
 	<div class="aali_tm_section">
 		<div class="aali_tm_counter">
 			<div class="container">
@@ -533,9 +529,9 @@
 			<span class="border moving_effect" data-direction="x"></span>
 		</div>
 	</div>
-	<!-- /COUNTER -->
+	 /COUNTER -->
 	
-	<!-- CONTACT -->
+	<!--CONTACT -->
 	<div class="aali_tm_section" id="contact">
 		<div class="aali_tm_contact">
 			<div class="container">
@@ -551,9 +547,6 @@
 						<ul>
 							<li>
 								<div class="list_inner">
-									<img class="svg" src="{{url_for('static', filename='img/svg/call.svg')}}" alt="" />
-									<span>Call me</span>
-									<h3>+1234 5678 9000</h3>
 								</div>
 							</li>
 							<li>
@@ -601,23 +594,17 @@
 		<div class="aali_tm_copyright">
 			<div class="container">
 				<div class="copyright_inner">
-					<div class="top">
-						<div class="logo">
-							<img src="{{url_for('static', filename='img/logo/logo.png')}}" alt="" />
-						</div>
+					<div class="top"></div>
 						<div class="social">
-							<span>Connect</span>
+							<!--<span>Connect</span>
 							<ul>
 								<li><a href="#"><i class="icon-facebook-1"></i></a></li>
 								<li><a href="#"><i class="icon-twitter-1"></i></a></li>
 								<li><a href="#"><i class="icon-instagram-3"></i></a></li>
-							</ul>
+							</ul>-->
 						</div>
 					</div>
 					<div class="bottom">
-						<div class="left">
-							<p>Designed with love by <a class="line_anim" href="https://themeforest.net/user/marketify" target="_blank">Marketify</a> &copy; 2021</p>
-						</div>
 						<div class="right">
 							<ul>
 								<li><a class="line_anim" href="#">Terms &amp; Condition</a></li>
